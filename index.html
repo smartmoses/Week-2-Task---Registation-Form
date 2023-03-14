@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Side Hustle Intenship - Week 1 task</title>
+</head>
+<body>
+    <div class="main">
+       
+        <form onsubmit="return validateForm()">
+            <h2><span style="color: #45a049;">Week 2 task</span>  <span style="font-weight: 300;"> - Registration Form</span> </h2><br><br>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+          
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+          
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+          
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="" disabled selected>Select Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select><br><br>
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+          
+            <input type="submit" value="Submit">
+          </form>
+    </div>
+      
+    <script src="javascript.js"></script>
+
+</body>
+</html>
