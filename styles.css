@@ -112,6 +112,7 @@ input[type="submit"]:hover {
 
   .aside h3 {
     margin-top: 20px;
+    color: #505b5b;
   }
 
   .aside p {
@@ -146,5 +147,4 @@ input[type="submit"]:hover {
     height: 42px;
 
   }
-
 }
